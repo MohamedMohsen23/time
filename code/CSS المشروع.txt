@@ -1,0 +1,236 @@
+body{background-color: black; color: white;}
+.contact{
+    width:1050px;
+    margin: auto;
+  
+}
+/*      MEDIA   */
+
+@media(min-width:768px){
+ .contact{width: 780px;}
+ .sendAndphoto .contact .PHOTO .photoAtSend{width: 45%;float: left; overflow: hidden; background-color: rgb(26, 26, 26);padding:0% 2% ;height: 420px;}
+}
+@media(min-width:992px){
+    .contact{width: 1000px;}
+    
+}
+@media(min-width:1200px){
+ .contact{width: 1200px;}
+    
+}
+
+
+
+
+/*  CLACK   */
+
+.clack0 .clack1{overflow: hidden;}
+.clack0 h2{ float: left;}
+
+.clack0 ul{list-style:none; padding-left: 10px; overflow: hidden;float: right;padding-right: px;}
+.clack0 ul li{ padding: 10px;float: left;}
+.clack0 ul li a{color: white;text-decoration: none;}
+.clack0 ul li a:hover{ color:darkgoldenrod;}
+
+
+/*  HELLO */
+.hello .contact .hello1 h6{
+color: darkgoldenrod;
+float: left;
+
+}
+.hello .contact .hello1 {
+    overflow: hidden;
+    float:left;
+}
+.hello .contact .hello1 h1{font-size: 60px;}
+
+.hello .contact .hello1 .but:hover{background-color:darkgoldenrod ;}
+.hello .contact  .im1{color:darkgoldenrod ;}
+.hello .contact .img1{height: 400px;padding-left: 0px;}
+
+
+
+/*About me*/
+.about .contact .img2{height: 400px; float: left;}
+.about .contact .aabout{line-height: 1.5; float: left;width: 40%;padding-left: 25px; }
+.about .contact .aabout .none{color: rgb(102, 98, 98);}
+.about .contact .aabout .a120 {color:darkgoldenrod ;}
+.about .contact .aabout .download{background-color:darkgoldenrod; border-radius: 10px; }
+
+/*  Resume  */
+.resume .contact {
+    line-height: 1.7;
+    text-align: center;
+    overflow: hidden;
+padding-bottom: 40px;
+}
+
+/*  CVS */
+.contact .cvs1{padding-bottom: 10px;}
+ .contact .cv1{background-color:rgb(46, 45, 45);width: 45%; float: left;padding: 10px;overflow: hidden;border-bottom: 2px black solid ;}
+ .contact .cv1 .time1{color:darkgoldenrod ;font-weight: bold; font-size: large;}
+.contact .cvs2{padding-top: 400px;}
+.contact .cv2{background-color:rgb(46, 45, 45);width: 45%;float:right;padding: 10px; overflow: hidden;border-bottom: 2px black solid ;}
+ .contact .cv2 .time2{color:darkgoldenrod ;font-weight: bold; font-size: large;}
+
+ .contact .cv3{background-color:rgb(46, 45, 45);width: 45%;float:left;padding: 10px; overflow: hidden;border-bottom: 2px black solid ;}
+ .contact .cv3 .time3{color:darkgoldenrod ;font-weight: bold; font-size: large;}
+
+ .contact .cv4{background-color:rgb(46, 45, 45);width: 45%;float:right;padding: 10px; overflow: hidden;border-bottom: 2px black solid ;}
+ .contact .cv4 .time4 {color:darkgoldenrod ;font-weight: bold; font-size: large;}
+.contact .down .download_cv{border-radius: 10px;padding: 10px;}
+.contact .down .download_cv:hover{background-color: darkgoldenrod;}
+ .contact .down{text-align: center;padding-top: 400px;padding-bottom: 100px;}
+
+
+
+ /*   services       */
+.service .contact{text-align: center;padding-bottom: 40px;line-height: 1.7;}
+
+
+
+
+/*      PHOTO   */
+
+.photo1 .contact .services1,
+.photo1 .contact .services2,
+.photo1 .contact .services3
+{float: left;background-color: rgb(42, 40, 43);width: 29%;margin-left: 3.3333%;padding: 1px; height: 100%; text-align: center; overflow: hidden;}
+.photo1{padding-bottom: 250px;}
+
+
+.photo2 .contact .services4,
+.photo2 .contact .services5,
+.photo2 .contact .services6
+{float: left;background-color: rgb(46, 45, 45);width: 29%;margin-left: 3.3333%;padding: 1px; height: 100%; text-align: center; overflow: hidden;}
+
+/*  MY Skills   */
+
+.skills .contact{padding-top: 300px;text-align: center;}
+
+/*      Grades      */
+.contact .grade{width: 50%;float: left;overflow: hidden;}
+.grade .contact .photoshop0 .photoshop {margin-bottom: 4%;}
+.grade .contact .HTML50 .HTML5 {margin-bottom: 4%;}
+.grade .contact .WordPress0 .WordPress {margin-bottom: 30%;}
+
+.contact .photoshop0{background-color:rgb(46,45,45) ;width: 45%;border-radius: 5px;}
+.contact .photoshop0 .photoshop{width: 90%; background-color: rgb(184, 142, 34);text-align: end;border-radius: 5px;}
+
+.contact .HTML50{background-color:rgb(46,45,45) ;width: 45%;border-radius: 5px;}
+.contact .HTML50 .HTML5{width: 95%; background-color: rgb(184, 142, 34);text-align: end;border-radius: 5px;}
+
+.contact .WordPress0{background-color:rgb(46,45,45) ;width: 45%;border-radius: 5px;}
+.contact .WordPress0 .WordPress{width: 70%; background-color: rgb(184, 142, 34);text-align: end;border-radius: 5px;}
+
+
+.contact .grade1{width: 50%;float: right;overflow: hidden;}
+.grade1 .contact .photoshop0 .photoshop {margin-bottom: 4%;}
+.grade1 .contact .HTML50 .HTML5 {margin-bottom: 4%;}
+.grade1 .contact .WordPress0 .WordPress {margin-bottom: 30%;}
+
+.grade1 .contact .photoshop0{background-color:rgb(46,45,45) ;width: 45%;border-radius: 5px;}
+.grade1 .contact .photoshop0 .photoshop{width: 85%; background-color: rgb(184, 142, 34);text-align: end;border-radius: 5px;}
+
+.grade1 .contact .HTML50{background-color:rgb(46,45,45) ;width: 45%;border-radius: 5px;}
+.grade1 .contact .HTML50 .HTML5{width: 90%; background-color: rgb(184, 142, 34);text-align: end;border-radius: 5px;}
+
+.grade1 .contact .WordPress0{background-color:rgb(46,45,45) ;width: 45%;border-radius: 5px;}
+.grade1 .contact .WordPress0 .WordPress{width: 80%; background-color: rgb(184, 142, 34);text-align: end;border-radius: 5px;}
+
+
+/*    Project  */
+.Project .contact{text-align: center;}
+
+/*      photos of projects  */
+.contact .ph1{width:30% ; float: left;padding: 1%; }
+.contact .ph2{width:62% ; padding: 1%;}
+
+.contact .ph3{width:62% ; float: left; padding: 1%;}
+.contact .ph4{width:30% ; padding: 1%;}
+
+.contact .ph5{width:62% ; float: left; padding: 1%; padding-bottom: 3%;}
+.contact .ph6{width:30% ; padding: 1%; padding-bottom: 3%;}
+
+
+/*      OUR BLOG */
+
+.blog .contact{text-align: center;}
+
+/*     Photos of blogs  */
+
+.contact .photo1 {width: 30%; float: left;padding-right: 2.5%;height: 100%;padding-bottom: 1%;} 
+.contact .photo2 {width: 30%; float: left;padding-right: 2.5%;height: 100%;padding-bottom: 0.1%;}
+.contact .photo3{width: 30%; height: 100%;padding-bottom: 1%;}
+
+/*  words after photo */
+
+.contact .words1{width: 30%;float: left;padding-right: 2.5%;padding-left: 1%;}
+.contact .words1 p{color: darkgoldenrod;font-size: 80%;}
+.contact .words1 span{color:rgb(181, 178, 178);font-size: smaller;}
+
+.contact .words2{width: 30%;float: left;padding-right: 2.5%;padding-left: 0.5%;}
+.contact .words2 p{color: darkgoldenrod;font-size: 80%;}
+.contact .words2 span{color:rgb(181, 178, 178);font-size: smaller;}
+
+.contact .words3{width: 30%;float: left;padding-right: 2.5%;padding-left: 1%; padding-bottom: 17%;}
+.contact .words3 p{color: darkgoldenrod;font-size: 80%;}
+.contact .words3 span{color:rgb(181, 178, 178);font-size: smaller;}
+
+
+.contact .price1{width: 20%; float: left; margin-right: 2.7%; background-color:rgb(46,45,45);text-align: center;padding: 1.2% 1.5%;}
+.contact .price2{width: 20%; float: left;margin-right: 2.7%;background-color:rgb(46,45,45);text-align: center;padding: 1.2% 1.5%;}
+.contact .price3{width: 20%; float: left;margin-right: 2.6%;background-color:rgb(46,45,45);text-align: center;padding: 1.2% 1.5%;}
+.contact .price4{width: 20%; float: left;background-color:rgb(46,45,45);text-align: center;padding: 1.2% 1.5%;}
+/*  Photo of background */
+
+.slider .contact .word0{ line-height: 1.7; width: 100%;text-align:center;background-image: url(photo_٢٠٢٣-٠٣-١٠_١٣-٣١-٢٥.jpg);margin-top: 450px;height: 300px;padding-top: 5%;}
+.slider .contact .word0 .freelance span{color: darkgoldenrod;}
+.slider .contact .word0 a{text-decoration: none; background-color: darkgoldenrod;padding: 6px;border-radius: 10px;}
+
+/*     contact me   */
+.con .contact{text-align: center; padding-top: 15%; padding-bottom: 10%;}
+
+
+
+/**/
+.logos .contact .logos1,.logos .contact .logos2,.logos .contact .logos3,.logos .contact .logos4{
+    width: 25%; float: left;text-align: center;
+}
+
+.logos .contact .cl{background-color: rgb(26, 26, 26);border-radius: 1000px; padding: 10px 0px;}
+.logos .contact .cl2{background-color: rgb(26, 26, 26);border-radius: 1000px; padding: 10px 0px;padding-bottom: 15px;}
+
+.logos .contact span{font-size: small; color: dimgray;overflow: hidden;}
+.logos{
+    padding-bottom: 300px;
+}
+
+/*      Send And Photo  */
+
+.sendAndphoto .contact .PHOTO .photoAtSend{width: 45%;float: left; overflow: hidden; background-color: rgb(26, 26, 26);padding:0% 2% ;}
+.sendAndphoto .contact .sendM{background-color: white;overflow: hidden;width: 45;padding:1% 1% 6% 2% ;}
+.sendAndphoto .contact .sendM .text{width: 100%;height: 100%;}
+.sendAndphoto .contact .sendM .sendmessage{border-radius: 100px;text-align: center;}
+.sendAndphoto {padding-bottom: 200px;}
+
+
+/*  `      End Class    */
+.end{padding-bottom: 100px;}
+.end .contact .about{width: 23%;float: left;}
+.end .contact .links{width: 23%;float: left;}
+.end .contact .services{width: 23%;float: left;}
+.end .contact .have{width: 23%;float: left;}
+.end .contact p,.end .contact ul{color:grey ; font-size: small;line-height: 1.7;}
+
+
+
+.pic .contact{text-align: center;}
+.pic .contact .asf{width: 5%;padding: 1%;background-color:grey;border-radius: 20px;}
+.pic .contact .twitter{width: 5%;padding: 1%;background-color:grey;border-radius: 20px;}
+.pic .contact .instagram{width: 5%;padding: 1%;background-color:grey;border-radius: 20px;}
+
+
+/*      finish  */
+.finish .contact{text-align: center; padding: 20px; color:grey ;}
